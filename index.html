@@ -17,10 +17,10 @@
 
 <body>
     <header>
-        <h3 class="logo">MyValentine</h3>
+        <h3 class="logo animate__fadeIn">MyValentine</h3>
         <nav>
             <ul>
-                <li><a href="#">Create card</a></li>
+                <li><a href="#">Send a valentines card</a></li>
                 <li><a href="#">About us</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
@@ -28,24 +28,28 @@
     </header>
 
     <main>
-        <section>
-            <h1>Happy Valentines</h1><i class="fa-regular fa-heart animate__heartBeat"></i>
-            <p>Send a valentines message to someone you like!</p>
-        </section>
-
-        <section class="valentines-form">
-            <form action="">
-                <h2>A Valentines Message</h2>
-                <label for="name">To:</label>
-                <input type="text" placeholder="Receiver" id="receiver">
-                <label for="name">From:</label>
-                <input type="text" placeholder="Sender" id="sender">
-                <label for="message">Message</label>
-            <textarea name="Message" id="message" cols="30" rows="10"></textarea>
-            <button class="send-btn">Send</button>
-            </form>
-        </section>
-   
+        <div class="container">
+            <div class="column balloons">
+                <img src="images/heart-balloons.png" class="heart-balloons" alt="Heart shapes balloons">
+            </div>
+            <div class="column">
+                    <form action="" class="valentines">
+                        <section>
+                            <h1>Happy Valentines</h1><i class="fa-regular fa-heart animate__heartBeat"></i>
+                            <p>Send a message to someone you like!</p>    
+                        </section>
+                        <h2>A Valentines Message</h2>
+                        <label for="name">To:</label>
+                        <input type="text" placeholder="Receiver" id="receiver">
+                        <label for="name">From:</label>
+                        <input type="text" placeholder="Sender" id="sender">
+                        <label for="message">Message</label>
+                    <textarea name="Message" id="message" cols="30" rows="10"></textarea>
+                    <button class="send-btn">Send</button>
+                    </form>
+            </div>
+        </div>
+               
     </main>
 
 </body>
