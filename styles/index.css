@@ -103,3 +103,20 @@ input, textarea {
     margin-top: 10px;
     flex: wrap;
 }
+
+.send-btn {
+    min-width: 20px;
+    max-width: 200px;
+    padding: 10px;
+    background-color: brown;
+    color: white;
+    border-style: solid;
+    border-color: palevioletred;
+    border-radius: 4px;
+}
+
+.send-btn:hover {
+    background-color: palevioletred;
+    transition: all 0.6s ease-in-out;
+    /*transition-delay: 0.2s;*/
+}
