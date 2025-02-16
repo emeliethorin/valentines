@@ -3,9 +3,18 @@ body {
     font-family: "Patrick Hand", serif;
 }
 
+p {
+    font-size: 22px;
+}
+
+h1 {
+    font-size: 40px;
+    margin: 20px;
+}
+
 h2 {
     color: brown;
-    font-size: 30px;
+    font-size: 34px;
     font-weight: bold;
     font-style: italic;
     font-family: "Patrick Hand", serif;
@@ -13,7 +22,7 @@ h2 {
   }
 
 h3 {
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     text-align: left;
   }
@@ -43,6 +52,7 @@ nav {
 
 nav ul {
     float: right;
+    margin-right: 20px;
 }
 
 nav ul li {
@@ -58,6 +68,22 @@ nav ul li a {
     font-style: normal;
     text-decoration: none;
     margin: 20px;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-heart {
+    color: brown;
+    font-size: 40px;
+    
+/*@keyframes .fa-heart {
+    from {transform: scale(1) rotate(0deg);}
+    to {transform: scale(1.1) rotate(15deg);}*/
 }
 
 .valentines-form {
@@ -76,7 +102,7 @@ form {
     height: 500px;
     min-width: 300px;
     max-width: 450px;
-    padding: 20px;
+    padding: 30px;
     margin: 20px;
 }
 
