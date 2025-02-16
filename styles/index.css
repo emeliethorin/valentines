@@ -1,0 +1,105 @@
+body {
+    background-color: white;
+    font-family: "Patrick Hand", serif;
+}
+
+h2 {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: italic;
+    font-family: "Patrick Hand", serif;
+    text-align: left;
+  }
+
+h3 {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+.logo {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: pink;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: brown;
+    min-height: 80px;
+    max-height: 150px;
+    padding: 10px;
+    flex: wrap;
+}
+
+nav {
+    display: inline-block;
+    float: right;
+}
+
+nav ul {
+    float: right;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 20px;
+}
+
+nav ul li a {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    float: right;
+    color: white;
+    font-size: 14px;
+    font-style: normal;
+    text-decoration: none;
+    margin: 20px;
+}
+
+.valentines-form {
+    display: flex;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    background-color: pink;
+    border-radius: 4px;
+    border-style: dotted;
+    border-color: brown;
+    width: 90%;
+    height: 500px;
+    min-width: 300px;
+    max-width: 450px;
+    padding: 20px;
+    margin: 20px;
+}
+
+label {
+    margin-top: 10px;
+}
+
+input, textarea, button {
+    font-family: "Patrick Hand", serif;
+    font-size: 16px;
+    width: 100%;
+    max-width: 100%;
+    margin-top: 10px;
+}
+
+input, textarea {
+    width: 280px;
+    border-width: 1px;
+    border-radius: 4px;
+    border-style: solid;
+    border-color: brown;
+    color: brown;
+    padding: 10px;
+    margin-top: 10px;
+    flex: wrap;
+}
